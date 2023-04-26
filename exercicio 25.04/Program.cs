@@ -9,18 +9,6 @@ using exercicio_25._04;
 Celular x = new Celular();
 
 Console.WriteLine(@$"
-Informe a cor do celular: ");
-x.cor = Console.ReadLine();
-
-Console.WriteLine(@$"
-Informe o modelo do celular: ");
-x.modelo = Console.ReadLine();
-
-Console.WriteLine(@$"
-Informe o tamanho do celular: ");
-x.tamanho = Console.ReadLine();
-
-Console.WriteLine(@$"
 O celular esta ligado?(s/n): ");
 string resposta = Console.ReadLine();
 
